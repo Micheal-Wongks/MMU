@@ -1,0 +1,110 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  font-family: Helvetica, Sans-Serif;
+  background-image: url(https://pbs.twimg.com/media/FdgSnChVQAA0X4i?format=jpg&name=large);
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.resume_top {
+  width: 800px;
+  background: rgb(25, 67, 202);
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 80px auto 80px;
+}
+
+#pic {
+  float: right;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #25fffb;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+strong span {
+  font-size: 16px;
+  color: #25fffb;
+  font-weight: normal;
+}
+
+p {
+  margin: 16px 16px 16px 16px;
+}
+
+a {
+  color: #25fffb;
+  border-bottom: 1px dotted rgb(220, 219, 219);
+}
+
+ul {
+  margin: 0 0 32px 17px;
+}
+
+#introduction {
+  width: 500px;
+  float: left;
+}
+
+#socials {
+  margin: 16px 16px 16px 16px;
+  padding: 8px 8px 8px 8px;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  float: left;
+  height: 100px;
+  border-right: 1px solid #999;
+}
+
+dd {
+  width: 600px;
+  float: right;
+}
+
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}
+
+.resume_bottom {
+  width: 800px;
+  background: rgb(255, 255, 255);
+}
+
+a.button{
+  color: black;
+ font-size: 20px;
+}

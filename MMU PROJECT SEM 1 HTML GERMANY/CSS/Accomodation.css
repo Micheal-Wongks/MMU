@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  animation: animation 20s linear infinite;
+  margin: 0 5px;
+}
+
+@keyframes animation {
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+
+  5% {
+    background-color: rgb(255, 81, 0);
+  }
+
+  10% {
+    background-color: rgb(255, 137, 1);
+  }
+
+  15% {
+    background-color: rgb(255, 174, 0);
+  }
+
+  20% {
+    background-color: rgb(255, 230, 0);
+  }
+
+  25% {
+    background-color: rgb(209, 255, 4);
+  }
+
+  30% {
+    background-color: rgb(124, 255, 1);
+  }
+
+  35% {
+    background-color: rgb(145, 255, 0);
+  }
+
+  40% {
+    background-color: rgb(115, 255, 0);
+  }
+
+  45% {
+    background-color: rgb(0, 255, 13);
+  }
+
+  50% {
+    background-color: rgb(0, 255, 170);
+  }
+
+  55% {
+    background-color: rgb(0, 255, 200);
+  }
+
+  60% {
+    background-color: rgb(0, 132, 255);
+  }
+
+  65% {
+    background-color: rgb(0, 119, 255);
+  }
+
+  70% {
+    background-color: rgb(38, 0, 255);
+  }
+
+  75% {
+    background-color: rgb(76, 0, 255);
+  }
+
+  80% {
+    background-color: rgb(140, 0, 255);
+  }
+
+  85% {
+    background-color: rgb(247, 0, 255);
+  }
+
+  90% {
+    background-color: rgb(255, 0, 76);
+  }
+
+  95% {
+    background-color: rgb(255, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Germany/germany_7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.inner_header .p {
+  font-weight: 900;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  font-size: 60px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(199, 113, 2);
+  font-family: 'Montserrat', sans-serif;
+  border: 2px black solid;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: rgb(158, 69, 28);
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.headline {
+  font-size: 40px;
+  text-align: center;
+}
+
+.paragraph {
+  flex-basis: 40%;
+  order: 2;
+  text-align: center;
+}
+
+.paragraph img {
+  max-width: 100%;
+  height: auto;
+  border: 10px;
+  border: solid 2px black;
+}
+
+.text {
+  font-size: 25px;
+  text-align: center;
+}
+
+.table {
+  padding-left: 200px;
+  outline: 40px;
+}
+
+.text img {
+  max-width: 100%;
+  height: 200px;
+  border: 10px;
+  border: solid 2px black;
+}
+
+.bottom {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.bottom a {
+  color: white;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 2% 0;
+}
+
+.footer .navigation {
+  display: grid;
+  margin: 0 45%;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+table,
+td {
+  border: 1px solid;
+  padding: 0px;
+}
+
+td {
+  width: 200px;
+  height: 3em;
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sig {
+  position: absolute;
+  font-size: 12px;
+}
+
+.all {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media4.giphy.com/media/ccq0VVN7nBThsRrMFd/giphy.gif?cid=790b7611846c8ee912bfe9d71ac6948c925d8401d1695bfb&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0;
+}
+
+.space {
+  padding: 25px 0;
+}

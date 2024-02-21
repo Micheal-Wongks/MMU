@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url(https://pbs.twimg.com/media/FdWAY4VUcAIx-MG?format=jpg&name=large);
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  margin-bottom: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.name_1 {
+  margin: 30px 20px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.resume .title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: rgb(25, 67, 202);
+  color: white;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left ul li .data {
+  color: #9ecae4;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #61d1fa;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .resume_right {
+  width: 520px;
+  background: rgb(255, 255, 255);
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #000000;
+}
+
+.resume .resume_right .resume_education ul,
+.resume .resume_right .resume_worl ul {
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.resume .resume_right .bold {
+  color: rgb(26, 56, 223);
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+}
+
+a.button{
+  color: black;
+ font-size: 20px;
+}
