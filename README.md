@@ -1,0 +1,1 @@
+This is a simple html project that wants us to build a website from scratch which introduce the country Germany. I used a few technique like added with map of the country, photo of the country, added some lofi bgm as the background music and also some colorful animated background wallpaper to enhance the overall feeling of the website.
